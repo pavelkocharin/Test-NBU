@@ -1,0 +1,64 @@
+@import 'variables';
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 960px;
+
+  &__feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+  }
+
+  &__title {
+    max-width: 80%;
+    text-align: center;
+    font-size: 1.3rem;
+    color: $title-color;
+  }
+
+  &__title--margin--1px {
+    margin: 1px;
+    font-size: 1.75rem;
+  }
+
+  &__subtitle {
+    font-size: 1.3rem;
+    color: $background-color;
+  }
+
+  &__diplom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+    width: 100%;
+  }
+
+  &__text {
+    margin: .5rem 0;
+    width: 100%;
+    text-align: justify;
+    font-size: 1.3rem;
+    color: $background-color;
+  }
+
+  &__slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem 0;
+    width: 100%;
+  }
+
+  &__social {
+    margin: 1rem 0;
+    width: 100%;
+    max-width: 550px;
+  }
+}

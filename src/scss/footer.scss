@@ -1,0 +1,44 @@
+@import 'variables';
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $background-color;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  color: #fff;
+
+  &__nav-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__nav-item {
+    margin-bottom: .5rem;
+  }
+
+  &__nav-link {
+    transition: all .5s;
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: #fff;
+  }
+
+  &__nav-link:hover {
+    text-decoration: underline;
+    color: rgb(217, 222, 252);
+  }
+
+  &__text {
+    margin-bottom: 1.5rem;
+    font-size: .8rem;
+  }
+}
